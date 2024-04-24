@@ -135,7 +135,7 @@ namespace Svg
             g.CompositingQuality = CompositingQuality.HighQuality;
             g.TextRenderingHint = TextRenderingHint.AntiAlias;
             g.TextContrast = 1;
-            g.InterpolationMode = InterpolationMode.Default;
+            g.InterpolationMode = InterpolationMode.HighQualityBicubic;
             return g;
         }
 
